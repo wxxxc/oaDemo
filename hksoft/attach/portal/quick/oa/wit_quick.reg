@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.admin.10]
+@="wit.admin.10"
+"URL Protocol"="C:\\Program Files\\Windows Live\\Messenger\\msnmsgr.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.admin.10\Shell]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.admin.10\Shell\open]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.admin.10\Shell\open\command]
+@="C:\\Program Files\\Windows Live\\Messenger\\msnmsgr.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.oa.9]
+@="wit.oa.9"
+"URL Protocol"="D:\\Program Files\\Tencent\\QQ\\Bin\\QQ.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.oa.9\Shell]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.oa.9\Shell\open]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.oa.9\Shell\open\command]
+@="D:\\Program Files\\Tencent\\QQ\\Bin\\QQ.exe"
+
+

@@ -1,0 +1,132 @@
+﻿
+/*.navbar-header.mynavbar {
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 110%;
+    position: fixed;
+    z-index: 1000;
+}*/
+
+
+.my_bottom_icon.start {
+    cursor: pointer;
+    color: #777777;
+}
+
+.my_bottom_icon.end {
+    cursor: pointer;
+    color: #318DFD;
+    background: #fff;
+    border: none;
+}
+.my_bottom_text{
+    color: #777777;
+}
+.my_bottom_text.end{
+    color: #318DFD;
+}
+
+
+.mynav {
+    border-top: 1px solid #e7e7e7;
+    background-color: white;
+    padding-bottom: 0px;
+    padding: 0px !important;
+}
+
+
+.my_bottom_icon {
+    color: #455A64;
+    font-size: 20px;
+}
+
+div.myheader.navbar-header {
+    width: 100%;
+    background-color: #fff;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+div.mycon.container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+nav.mynav {
+    bottom: 0;
+    position: fixed;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+}
+
+
+.dibu {
+    margin-top: 10%;
+}
+
+.page_bottom {
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+}
+
+    .page_bottom li {
+        padding: 0 20px;
+    }
+
+        .page_bottom li a {
+            height: 25px !important;
+            line-height: 25px;
+            padding: 0px;
+            margin-right: 0px !important;
+        }
+
+            .page_bottom li a h6 {
+                margin-left: -4px;
+                margin-top: 0px;
+                font-size:0.7em;
+                color:#455A64;
+            }
+
+.myset {
+    padding-top: 110px;
+}
+
+    .myset li {
+        border-top: 1px solid #E6E7E6;
+        background-color: #fff;
+        padding: 10px;
+    }
+
+        .myset li a {
+            display: inline-flex;
+            width: 90%;
+        }
+
+            .myset li a h3 {
+                margin: 0px;
+                margin-left: 15px;
+                line-height: 48px;
+                color: #000 !important;
+                font-size: 18px;
+                font-weight: normal;
+            }
+
+        .myset li i {
+            line-height: 48px;
+            float: right;
+            margin-right: 20px;
+        }
+
+         .div_h1 .notify .heartbit {
+            position: absolute;
+            top: -25px !important;
+            right: -3px !important;
+        }
+      .div_h1 .notify .point {
+            position: absolute ;
+            right: 6px !important;
+            top: -15px !important;
+        }

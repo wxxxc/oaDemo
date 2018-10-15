@@ -1,0 +1,36 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>帮助页面</title>
+    <link href="../../CssJs/Main.css" type="text/css" rel="stylesheet" />
+</head>
+<body class="main">
+    &nbsp;<img alt="" src="../../Images/help_title.gif" border="0">
+    <table width="98%" border="0" align="center" cellpadding="5" cellspacing="1" bgcolor="#d2d2d2">
+        <tr>
+            <td bgcolor="#f3f9fd">
+                表达式中可采用如下标记：<br>
+                {SD}：表示部门名称<br>
+                {R}：表示角色名称<br>
+                {U}：表示用户姓名<br>
+                {F}：表示流程名称<br>
+                {Y}：表示年<br>
+                {M}：表示月<br>
+                {D}：表示日<br>
+                {H}：表示时<br>
+                {I}：表示分<br>
+                {S}：表示秒<br>
+                {W}：表示星期<br>
+                {N}：表示编号，通过【编号计数器】取值并自动增加计数值<br>
+                <br>
+                例如：表达式为“京府发BH[{Y}{M}]{N}号”，编号位数为3，则自动生成文号为“京府发BH[201108]001号”<br>
+                <br>
+                如果不填写自动文号表达式，系统将默认如下格式：<br />
+                流程名称(年-月-日 时:分)
+            </td>
+        </tr>
+    </table>
+    <div align="center">
+        <input name="button" type="button" class="mybtn" id="CloseBtn" onclick="javascript:window.close()"
+            value=" 关闭 " /></div>
+</body>
+</html>

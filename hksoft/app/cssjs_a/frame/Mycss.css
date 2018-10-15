@@ -1,0 +1,409 @@
+﻿* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*标题*/
+.hf_index .ui-bar-d {
+    color: #fff;
+}
+/*办理按钮背景*/
+.hf_btn_coloc #rblBl .ui-btn-active {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-image: linear-gradient( #5295EE /*{global-active-background-start}*/, #5295EE /*{global-active-background-end}*/ );
+}
+/*办理按钮圆角*/
+.hf_index .ui-controlgroup .ui-radio {
+    border-radius: 16px;
+}
+
+/*办理按钮点击变换字色*/
+.hf_btn_coloc .ui-radio-off {
+    border: 1px solid #fff;
+    color: #5295EE;
+    background-color: #fff;
+}
+
+.hf_btn_coloc .ui-radio-on {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #5295EE;
+}
+
+/*查询按钮*/
+.hw_cx .ui-btn-up-e {
+    border: 1px solid #fff;
+    border-radius: 1px;
+    width: 20px;
+    height: 30px;
+    background-image: linear-gradient( #fff /*{e-bup-background-start}*/, #fff /*{e-bup-background-end}*/ );
+}
+/*表框内容*/
+.hw_cx_txt div.ui-input-text {
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+}
+    /*字体大小*/
+    .hw_cx_txt div.ui-input-text input.ui-input-text, div.ui-input-text textarea.ui-input-text, .ui-input-search input.ui-input-text {
+        font-size: 16px;
+    }
+
+
+
+/*下拉列表*/
+.hw_xl .ui-btn-up-c {
+    border: 1px solid #DA6D12;
+    font-weight: 100;
+    color: #DA6D12;
+    background-image: linear-gradient( #fff /*{e-bup-background-start}*/, #fff /*{e-bup-background-end}*/ );
+    border-radius: 5px;
+}
+
+/*下拉图标*/
+.hw_xl .ui-icon, .ui-icon-searchfield:after {
+    background: #fff /*{global-icon-color}*/;
+    background: #fff /*{global-icon-disc}*/;
+    background-image: url(../../images_a/app/xz.png) /*{global-icon-set}*/;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 0px;
+    border-radius: -5px;
+}
+
+
+.hw_xl .ui-select .ui-mini.ui-btn-icon-right .ui-icon {
+    right: 16px;
+    left: 86px;
+}
+
+.hw_xl .ui-icon {
+    width: 22px;
+    height: 20px;
+}
+
+.hw_xl .ui-btn-icon-left > .ui-btn-inner > .ui-icon, .ui-btn-icon-right > .ui-btn-inner > .ui-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
+}
+
+
+/*详情图标*/
+.qu .ui-icon, .ui-icon-searchfield:after {
+    background: #fff /*{global-icon-color}*/;
+    background: #fff /*{global-icon-disc}*/;
+    background-image: url(../../images_a/app/qu.png) /*{global-icon-set}*/;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+}
+
+/*下导航*/
+.btn_dh_coloc .ui-bar-b {
+    border: 1px solid #fff /*{b-bar-border}; */;
+    background-image: linear-gradient( #fff /*{b-bar-background-start}*/, #ffffff /*{b-bar-background-end}*/ );
+}
+
+.btn_dh_coloc .ui-btn-up-b {
+    border: 1px solid #ffffff /*{b-bup-border}*/;
+    background-image: linear-gradient( #fff /*{b-bup-background-start}*/, #fff /*{b-bup-background-end}*/ );
+}
+
+/*详情内容边框*/
+.ui-btn-up-d {
+    border: 1px solid #fff;
+}
+
+
+/*返回图标*/
+.hf_index .ui-header .ui-btn-left {
+    left: 10px;
+    top: 14px;
+}
+
+
+/*保存按钮*/
+.ma_btn .ui-submit {
+    height: 49px !important;
+    border-radius: 0em !important;
+    background: #5094EF !important;
+    border: 1px !important;
+    width: 99%;
+    left: 2px;
+}
+
+    .ma_btn .ui-submit .ui-btn-inner {
+        padding: 0em 20px !important;
+        line-height: 50px !important;
+        color: #fff;
+        font-size: 18px !important;
+        font-weight: normal !important;
+    }
+/*内容边框*/
+.ma_txtbox .ui-body-d, .ui-overlay-d {
+    border: 1px solid #ffffff /*{d-body-border}*/;
+}
+
+.ma_txtbox textarea.ui-mini {
+    font-size: 17px;
+    border-radius: 0px;
+}
+
+
+
+
+/*选择用户*/
+/*选择用户 返回图标*/
+.cum_index .ui-btn-up-a ui-btn {
+    left: 20px;
+    top: 18px;
+}
+/*圆角*/
+.cum_index .ui-btn-corner-all {
+    border-radius: 0em /*{global-radii-buttons}; */;
+}
+/*下拉字体位置*/
+.cum_index .ui-btn {
+    text-align: left;
+}
+
+.cum_index input.ui-mini, .ui-mini input, textarea.ui-mini {
+    font-size: 16px;
+}
+
+.cum_index .ui-body-d, .ui-overlay-d {
+    border: 1px solid #fff /*{d-body-border}*/;
+}
+
+.cum_index .ui-btn-up-d {
+    border: 1px solid #fff;
+}
+/*下拉图标*/
+.btn_xl .ui-icon, .ui-icon-searchfield:after {
+    background: #fff /*{global-icon-color}*/;
+    background: #fff /*{global-icon-disc}*/;
+    background-image: url(../../images_a/app/xl.png) /*{global-icon-set}*/;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 0px;
+    border-radius: -5px;
+}
+
+.btn_xl .ui-icon {
+    width: 22px;
+    height: 20px;
+}
+
+.cum_index .btn_xl .ui-select .ui-mini.ui-btn-icon-right .ui-icon {
+    left: 85px;
+    top: 22px;
+}
+
+.btn_xl .ui-btn-text {
+    font-size: 17px;
+}
+
+
+/*完成按钮*/
+.btn_back .ui-btn-up-b {
+    border: 1px solid #5295EE /*{e-bup-border}*/;
+    background-image: linear-gradient( #5295EE /*{e-bup-background-start}*/, #5295EE /*{e-bup-background-end}*/ );
+}
+
+/*多选框*/
+
+
+
+
+/*信息页面*/
+/*办理按钮背景*/
+.hf_btn_coloc #rblSf .ui-btn-active {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-image: linear-gradient( #5295EE /*{global-active-background-start}*/, #5295EE /*{global-active-background-end}*/ );
+}
+
+.hf_index .ui-header .ui-btn-right, .ui-header-fixed.ui-fixed-hidden .ui-btn-right {
+    position: absolute;
+    top: 14px;
+}
+
+
+
+
+/*公告通知*/
+.ne_cx_tb .ui-listview-filter .ui-input-search {
+    border-radius: 0px;
+}
+/*查询那里的边框*/
+.ne_cx_tb .ui-body-c {
+    border: 1px solid #fff /*{c-body-border}*/;
+}
+/*查询图标*/
+.ne_cx_tb .ui-icon-searchfield:after {
+    background-image: url(../../images_a/app/suo.png) /*{global-icon-set}*/;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    left: 0px;
+}
+
+/*a超链接*/
+a {
+    text-decoration: none;
+}
+
+
+
+
+/*重点工作一览界面*/
+.zdgzyl-stats-item {
+    align-content: center;
+    text-align: center;
+}
+
+
+    .zdgzyl-stats-item h4 {
+        padding: 0;
+        margin: 0 auto;
+        font-weight: 100;
+        color: white;
+        font-size: 12px;
+        text-shadow: none;
+    }
+
+    .zdgzyl-stats-item h3 {
+        padding: 0;
+        margin: 0 auto;
+        font-weight: 100;
+        color: white;
+        font-size: 14px;
+        text-shadow: none;
+    }
+
+
+.zdgzyl-stat-icon img {
+    margin-top: 3px;
+    margin-left: 2%;
+}
+/*透明度*/
+.zdgzyl-stats-item .zdgzyl-stat-icon {
+    opacity: .3;
+}
+
+
+/* 重点一览 模块*/
+
+.task_list {
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+}
+
+
+    .task_list li {
+        float: left;
+        width: 23%;
+        margin-right: 1.3333%;
+    }
+/* 重点一览 查询*/
+.query_list {
+    padding: 5px 5px;
+}
+
+    .query_list li {
+        float: left;
+        padding: 0 3px;
+        box-sizing: border-box;
+    }
+
+/*高中低*/
+.urgent_tilct {
+    padding-left: 25%;
+}
+
+.page_bottom li {
+    width: 20%;
+    float: left;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*桌面*/
+
+.mn_list {
+    padding: 5px 5px;
+}
+
+    .mn_list li {
+        width: 33.333333%;
+        float: right;
+        padding: 3px;
+        box-sizing: border-box;
+        padding-left: 29px;
+    }
+
+.mn_tilct {
+    padding: 5px 5px;
+}
+
+    .mn_tilct li {
+        width: 33.333333%;
+        float: left;
+        padding: 3px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+a {
+    font-size: 13px;
+}
+
+.ds_top .listtitle {
+    width: 250px;
+}
+
+.ds_top.ui-content .ui-listview {
+    margin: -7px;
+    margin-top: -5px;
+}
+/*办理按钮*/
+.hf_btn_coloc .ui-btn-active {
+    background-image: linear-gradient( #5295EE /*{global-active-background-start}*/, #5295EE /*{global-active-background-end}*/ );
+}
+
+.hf_btn_coloc .ui-controlgroup-horizontal .ui-radio .ui-mini .ui-btn-inner {
+    padding: .5em 9px 1.5em;
+}
+
+.abb {
+    display: initial;
+}
+
+
+/*退出按钮*/
+#tc.tc_btn .ui-submit {
+    height: 40px !important;
+    border-radius: 0.5em !important;
+    background: #1E88E5 !important;
+    border: 0px !important;
+    width: 90%;
+    left: 22px;
+}
+
+    #tc.tc_btn .ui-submit .ui-btn-inner {
+        padding: 0em 20px !important;
+        line-height: 40px !important;
+        color: #fff;
+        font-size: 18px !important;
+        font-weight: normal !important;
+    }

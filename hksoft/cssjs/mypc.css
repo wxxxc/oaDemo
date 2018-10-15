@@ -1,0 +1,269 @@
+﻿body {
+}
+
+.myInitMain_mytab li {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    border-right: 1px solid #e5e5e5;
+    width: 12.4%;
+    float: left;
+    list-style: none;
+    cursor: pointer;
+}
+
+    .myInitMain_mytab li.on {
+        background-color: #26c6da;
+        color: #fff;
+    }
+
+        .myInitMain_mytab li.on:after {
+            content: "";
+            position: relative;
+            width: 0;
+            height: 0;
+            border: 11px solid;
+            border-color: #26c6da transparent transparent transparent;
+            bottom: -50px;
+            left: -25%;
+            transform: translateX(-50%);
+            transition: all .3s ease;
+        }
+
+a.gvlink:visited {
+    color: #157FCC;
+    text-decoration: none;
+}
+
+a.gvlink {
+    color: #333;
+    text-decoration: none;
+}
+
+    a.gvlink:link {
+        color: #157FCC;
+        text-decoration: underline;
+    }
+
+    a.gvlink:hover {
+        color: #157FCC;
+        text-decoration: underline;
+    }
+
+.page_text a {
+    color: #333;
+    text-decoration: none;
+}
+
+    .page_text a:hover {
+        color: #157FCC;
+        text-decoration: underline;
+    }
+
+    .page_text a:visited {
+        color: #333;
+        text-decoration: none;
+    }
+
+.mytable .table {
+    width: 100%;
+    max-width: 100%;
+    border-top: 1px solid #A1A7AB;
+}
+
+.mytable * {
+    box-sizing: content-box !important;
+    -webkit-box-sizing: content-box !important;
+}
+
+.mytable table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+tr.hkHeadStyle > th {
+    background-color: #fff;
+    color: #607d8b;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    height: 40px;
+    line-height: 40px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    font-size: 14px;
+}
+
+tr.hkRowStyle {
+    height: 40px;
+    background-color: #ffffff;
+}
+
+tr.hkAltRowStyle {
+    height: 40px;
+    background-color: #fafafa;
+    color: #000000;
+}
+
+tr.hkRowStyle:hover {
+    background-color: #d6d0d0;
+}
+
+tr.hkAltRowStyle:hover {
+    background-color: #d6d0d0;
+}
+
+.mw30 {
+    min-width: 30px;
+    width: 30px;
+}
+
+.mw40 {
+    min-width: 40px;
+    width: 40px;
+}
+
+.mw60 {
+    min-width: 60px;
+    width: 60px;
+}
+
+.mw70 {
+    min-width: 70px;
+    width: 70px;
+}
+
+.mw80 {
+    min-width: 80px;
+    width: 80px;
+}
+
+.mw90 {
+    min-width: 90px;
+    width: 90px;
+}
+
+.mw100 {
+    min-width: 100px;
+    width: 100px;
+}
+
+.mw120 {
+    min-width: 120px;
+    width: 120px;
+}
+
+.mw130 {
+    min-width: 130px;
+    width: 130px;
+}
+
+.mw150 {
+    min-width: 150px;
+    width: 150px;
+}
+
+.mw170 {
+    min-width: 170px;
+    width: 170px;
+}
+
+.mw200 {
+    min-width: 200px;
+    width: 200px;
+}
+
+.mw250 {
+    min-width: 250px;
+    width: 250px;
+}
+
+.mwp80 {
+    min-width: 150px;
+    width: 80%;
+}
+
+.mwp50 {
+    min-width: 100px;
+    width: 50%;
+}
+
+.mwp30 {
+    min-width: 60px;
+    width: 24%;
+}
+
+.mwp20 {
+    min-width: 40px;
+    width: 20%;
+}
+
+.mwp40 {
+    min-width: 60px;
+    width: 40%;
+}
+
+.index_title_card .card {
+    cursor: pointer;
+}
+
+.index_table_img {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+.mynotice {
+    padding-left: 5px;
+    color: #333;
+    font-size: 14px;
+}
+
+    .mynotice li {
+        list-style: none;
+        line-height: 23px;
+    }
+
+    .mynotice .notice_date {
+        float: right;
+    }
+
+.notice_more {
+    float: right;
+    color: #fff;
+}
+
+    .notice_more:hover {
+        color: #ffb22b;
+        text-decoration: underline;
+    }
+
+.w240 {
+    width: 240px;
+}
+
+[type="checkbox"].mybox:not(:checked), [type="checkbox"].mybox:checked {
+    position: static;
+    opacity: 1;
+}
+.mybox [type="checkbox"]:not(:checked), .mybox [type="checkbox"]:checked {
+    position: static;
+    opacity: 1;
+}
+
+.v-m{
+    vertical-align:middle !important;
+}
+.rwgl_nav a.active{
+    color:#007bff !important;
+}
+.rwgl_nav a{
+    color:#495057 !important;
+}

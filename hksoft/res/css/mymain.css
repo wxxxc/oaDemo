@@ -1,0 +1,70 @@
+﻿body {
+}
+
+#RegionPanel1_leftRegion_userinfo img {
+    width: 60px;
+    height: 60px;
+}
+
+#RegionPanel1_leftRegion_treeMenu-body {
+    border-width: 0px !important;
+}
+#RegionPanel1_leftRegion-body{
+    overflow:auto !important;
+}
+
+#RegionPanel1_leftRegion_userinfo {
+    height: 200px !important;
+}
+
+    #RegionPanel1_leftRegion_userinfo * {
+        box-sizing: content-box !important;
+        -webkit-box-sizing: content-box !important;
+    }
+
+#RegionPanel1_leftRegion_userinfo-body {
+    border: 0px !important;
+}
+
+#RegionPanel1_leftRegion_userinfo .avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin-left: 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+#RegionPanel1_leftRegion_userinfo .name {
+    margin-top: 5px;
+    float: left;
+    color: #333;
+    font-size: 15px;
+    line-height: 60px;
+    margin-left: 5px;
+}
+
+#RegionPanel1_leftRegion_userinfo .item {
+    float: left;
+    width: 90px;
+    height: 60px;
+    margin-bottom: 1px;
+    margin-right: 0px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+    #RegionPanel1_leftRegion_userinfo .item .title {
+        margin-top: 5px;
+        color: #333;
+        font-weight:600;
+        font-size:14px;
+    }
+
+    #RegionPanel1_leftRegion_userinfo .item .value {
+        margin-top: 5px;
+        color:orangered;
+        font-weight: bold;
+        font-size:12px;
+    }

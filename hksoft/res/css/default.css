@@ -1,0 +1,160 @@
+﻿#header {
+    margin: 6px 12px;
+    position: relative;
+    /*border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding: 8px 12px 6px;*/
+}
+
+    #header a.logo {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    #header a.title {
+        font-weight: bold;
+        font-size: 24px;
+        text-decoration: none;
+        line-height: 30px;
+        color: #fff;
+    }
+
+#header table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+    #header table td {
+        padding: 0;
+    }
+
+#header .logo,
+#header .homepage {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 40px;
+}
+
+#header .homepage {
+    padding: 8px 8px 8px 10px;
+    line-height: 24px;
+}
+
+    #header .homepage img {
+        width: 24px;
+        height: 24px;
+        vertical-align: top;
+    }
+
+
+#header .x-btn {
+    border-width: 0;
+    padding: 10px;
+    background-image: none;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+#header .x-btn-text.x-btn-icon-top > .x-btn-icon-el-default-small {
+    background-size: 22px 22px;
+    height: 22px;
+    margin-bottom: 2px;
+}
+
+#header .x-btn-text.x-btn-icon-left > .x-btn-icon-el-default-small {
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.topbar.f-toolbar {
+    border-top-color: inherit;
+    padding: 3px 12px;
+}
+
+#toggleheader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-image: url(../icon/bullet_arrow_up.png);
+    background-repeat: no-repeat;
+    z-index: 10000;
+}
+
+#toggleheader.collapsed {
+    background-image: url(../icon/bullet_arrow_down.png);
+}
+
+.bottomtable {
+    width: 100%;
+    font-size: 12px;
+}
+
+
+/* 主题相关样式 - neptune */
+.f-theme-neptune #header,
+.f-theme-neptune .bottomtable,
+.f-theme-neptune .x-splitter {
+    background-color: #1475BB;
+    color: #fff;
+}
+
+    .f-theme-neptune #header a,
+    .f-theme-neptune .bottomtable a {
+        color: #fff;
+    }
+
+    .f-theme-neptune #header .x-btn-over.x-btn-default-small {
+        background-color: #3487c3;
+    }
+
+/*neptune的toolbar开始*/
+.f-theme-neptune .region-top .x-panel-body,
+.f-theme-neptune .region-top .x-toolbar {
+    background-color: #1475BB!important;}
+
+.f-theme-neptune .region-top .x-toolbar {
+    border-color: #014A7E!important;}
+
+.f-theme-neptune .region-top span,
+.f-theme-neptune .region-top .x-toolbar-text,
+.f-theme-neptune .region-top a {
+    color: #fff;}
+
+.f-theme-neptune .region-top .x-toolbar-separator {
+    border-color: #aaa;}
+
+.f-theme-neptune .region-top .x-btn-default-toolbar-small {
+    background-color: transparent;
+    background-image: none;
+    border-width: 0;}
+.f-theme-neptune .region-top .x-btn-default-toolbar-small-over,
+.f-theme-neptune .region-top .x-btn-default-toolbar-small-menu-active{
+    background-color: #3386c2;}
+/*neptune的toolbar结束*/
+
+/*Main页面标签*/
+.mainLabel span {
+    font-weight:bold;
+}
+
+/*登录页面标签*/
+.loginLabel span {
+    color:red;
+    font-weight:bold;
+    font-size:medium;
+}
+
+/*Main页面链接*/
+a.MenuMain:link {font-size: 10pt;color: #ffffff;text-decoration: none;}/*黄色链接*/
+a.MenuMain:visited{font-size: 10pt;color: #ffffff;text-decoration: none;}
+a.MenuMain:hover{font-size: 10pt;color: yellow;text-decoration: none;}
+a.MenuMain:active{font-size: 10pt;color: #ffffff;text-decoration: none;}

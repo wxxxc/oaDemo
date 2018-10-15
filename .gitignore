@@ -1,0 +1,15 @@
+.vs/
+packages/
+hkcomm.suo
+hkcomm.v11.suo
+hkcomm.v12.suo
+hksoft.sln
+hksoft.v12.suo
+README.md
+hksoft/aspnet_client/
+hksoft/obj/
+hksoft/bin/
+hksoft/Service References/
+hksoft/temp/
+hksoft/hksoft.csproj.user
+hksoft/hksoft.csproj

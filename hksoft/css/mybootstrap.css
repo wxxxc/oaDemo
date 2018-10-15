@@ -1,0 +1,57 @@
+﻿body {
+}
+
+.mylabel_sidebar_userinfo {
+    margin-top: 10px;
+    font-size: 80%;
+    line-height: 1.5;
+    padding: 3px 15px;
+}
+
+.sidebar-footer a {
+    width: 50%;
+}
+
+.mytitle li {
+    color: #fff;
+}
+
+#mytab > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+    #mytab > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+        font-size: 1rem;
+        text-decoration: none !important;
+        margin-right: 2px;
+        line-height: 1.42857143;
+        border: 1px solid transparent;
+        border-radius: 4px 4px 0 0;
+    }
+
+    #mytab > li.active > a, #mytab > li.active > a:focus, #mytab > li.active > a:hover {
+        cursor: default;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-bottom-color: transparent;
+        font-size: 1rem;
+        text-decoration: none !important;
+    }
+
+#popMenu a {
+    font-size: 14px !important;
+    color: #337ab7 !important;
+}
+
+.myprofile a:hover {
+    background: #f2f4f8;
+    color: #009efb;
+    text-decoration: none;
+}
+.myprofile i,.myinfo i{
+    margin-right:5px;
+}

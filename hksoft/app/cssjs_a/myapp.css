@@ -1,0 +1,144 @@
+﻿.navbar-header.mynavbar {
+    background-color: #1E88E5;
+}
+
+.nr {
+    margin-left: 10px;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 100;
+    text-shadow: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#query_content {
+    position: relative;
+    z-index: 2;
+    width: 54%;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+
+.input-group-btn #cz {
+    position: absolute;
+    margin-left: -6px;
+    top: 0px;
+}
+
+.input-group-btn #tj {
+    position: absolute;
+    margin-left: 25px;
+    top: 0px;
+}
+
+
+.table-bordered tr, td {
+    border-bottom: 1px solid #e4dada; /* 整体表格边框 */
+    height: 50px;
+    font-size: 15px;
+}
+
+.navbar-header.mynavbar {
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 110%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.dht {
+    border-bottom-color: white;
+    background-color: #1E88E5;
+    height: 62px;
+}
+
+.hf_index.dht a {
+    border: none;
+    background: #1E88E5;
+}
+
+#tc.bc_btn .ui-submit {
+    height: 49px !important;
+    border-radius: 4em !important;
+    background: #1E88E5 !important;
+    border: 0px !important;
+    width: 90%;
+    left: 15px;
+}
+
+
+.dht a .fa {
+    font-size: 18px;
+    margin-top: 7px;
+    background: #1E88E5;
+    border-color: #1E88E5;
+}
+
+.dht h1 {
+    line-height: 25px;
+    font-size: 36px;
+}
+
+.dht {
+    border-bottom-color: white;
+    background: #1E88E5;
+    height: 62px;
+}
+
+.hf_index.dht a {
+    border: none;
+    background: #1E88E5;
+}
+
+.dht.ui-btn-up-a {
+    background: #1E88E5;
+    background-image: linear-gradient( #1E88E5 /*{a-bup-background-start}*/, #1E88E5 /*{a-bup-background-end}*/ );
+    border-color: #1E88E5;
+}
+
+.mytable .table {
+    border: none;
+    margin-top: -12px;
+}
+
+.myd .row {
+    margin-right: 0px;
+    margin-left: 7px;
+    margin-top: 47px;
+}
+
+.myd .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 2px;
+    line-height: 0.428571;
+    vertical-align: middle;
+    border-top: none;
+}
+
+.myd .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border: none;
+}
+
+.myd .pagination {
+    display: inline-block;
+    padding-left: 8px;
+    margin: 7px 0;
+    border-radius: 4px;
+    margin-top: 0px;
+    font-size: 12px;
+    padding-bottom: 12px;
+}
+
+    .myd .pagination a {
+        margin-left: 10px;
+    }
+
+
+.myimg img {
+    width: 65px;
+    height: 65px;
+}

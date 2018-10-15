@@ -1,0 +1,27 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.admin.10]
+@="wit.admin.10"
+"URL Protocol"="C:\\Program Files\\Windows Live\\Messenger\\msnmsgr.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.admin.10\Shell]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.admin.10\Shell\open]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.admin.10\Shell\open\command]
+@="C:\\Program Files\\Windows Live\\Messenger\\msnmsgr.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.portal.12]
+@="wit.portal.12"
+"URL Protocol"="D:\\Program Files\\Tencent\\QQ\\Bin\\QQ.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.portal.12\Shell]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.portal.12\Shell\open]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.portal.12\Shell\open\command]
+@="D:\\Program Files\\Tencent\\QQ\\Bin\\QQ.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.portal.14]
+@="wit.portal.14"
+"URL Protocol"="D:\\Program Files (x86)\\Tencent\\QQ\\BinQQ.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.portal.14\Shell]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.portal.14\Shell\open]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\wit.portal.14\Shell\open\command]
+@="D:\\Program Files (x86)\\Tencent\\QQ\\BinQQ.exe"
+
+

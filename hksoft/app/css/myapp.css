@@ -1,0 +1,214 @@
+﻿body {
+}
+
+.mytop {
+    height: 60px !important;
+    line-height: 60px !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+    .mytop a {
+        font-size: 18px;
+        color: #fff !important;
+        margin-left: 10px;
+        position: absolute;
+    }
+
+    .mytop .div_h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mytop h1 {
+        font-size: 18px !important;
+        color: #fff !important;
+        line-height: 60px !important;
+        margin-bottom: 0px !important;
+    }
+
+.myradio_index {
+    margin-top: 60px;
+    border-bottom: 1px solid #1e88e5;
+}
+
+    .myradio_index .btn_my {
+        background-color: #fff !important;
+        color: #1e88e5 !important;
+        border-radius: 0 !important;
+        font-size: 12px;
+        padding: 7px 0;
+    }
+
+        .myradio_index .btn_my.active {
+            border-bottom: 2px solid #1e88e5;
+        }
+
+.mycontent_index {
+    margin-top: 64px;
+    padding: 5px 15px;
+}
+
+    .mycontent_index li.list-group-item {
+        border: 0px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        padding: 2px 10px;
+        margin-bottom: 5px;
+    }
+
+        .mycontent_index li.list-group-item .listtitle {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+            .mycontent_index li.list-group-item .listtitle i {
+                color: #f6c126;
+            }
+
+        .mycontent_index li.list-group-item .info span {
+            color: gray;
+            font-size: 12px;
+        }
+
+        .mycontent_index li.list-group-item .info_chk {
+            float: left;
+            height: 30px;
+            line-height: 40px;
+        }
+
+        .mycontent_index li.list-group-item .info_name {
+            float: left;
+            margin-left: 5px;
+            height: 30px;
+            line-height: 30px;
+        }
+
+    .mycontent_index .pagination {
+        font-size: 12px;
+    }
+
+        .mycontent_index .pagination a {
+            /*color: #333;
+    text-decoration: none;*/
+            margin-left: 10px;
+        }
+
+.mycontent_detail {
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+    .mycontent_detail .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .mycontent_detail .con_div {
+        line-height: 30px;
+        padding: 3px 0;
+    }
+
+        .mycontent_detail .con_div div {
+            padding: 5px 5px;
+        }
+
+            .mycontent_detail .con_div div.col-8 {
+                padding-right: 10px;
+            }
+
+                .mycontent_detail .con_div div.col-8 span {
+                    color: gray;
+                }
+
+    .mycontent_detail .separated_line {
+        margin: 0 10px;
+        border-bottom: 1px solid #f3f1f1;
+    }
+
+    .mycontent_detail .mylistcard {
+        margin-bottom: 10px;
+    }
+
+.mylistcard li.list-group-item {
+    border: 0px !important;
+}
+
+/*新增待办*/
+.adddb_jsr .input_check {
+    width: 15px !important;
+    height: 15px !important;
+    opacity: 1;
+    position: static;
+}
+
+.adddb_jsr li {
+    float: left;
+    width: 80%;
+}
+
+/*span {
+    color: #000000;
+}*/
+
+/*btn按钮*/
+
+.btn_color .btn {
+    padding: 10px 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/*分页样式*/
+.size_list .pagination {
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+
+/*设置界面样式*/
+
+.feeds .lib {
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.social-profile-first {
+    text-align: center;
+    padding-top: 22%;
+    margin-bottom: 70px;
+}
+/*工作评分List样式*/
+.mw20 {
+    min-width: 20px;
+    width: 20px;
+}
+
+.mw40 {
+    min-width: 40px;
+    width: 40px;
+}
+
+.mw50 {
+    min-width: 60px;
+    width: 60px;
+}
+
+.mw60 {
+    min-width: 60px;
+    width: 60px;
+}
+/*发布分页样式*/
+.myfy.pagination {
+    display: block;
+}
+
+.mywc.modal-footer {
+    border-top: none;
+}
+
+/*说明显示样式*/
+.sm_tooltip div {
+    background-color: #eeecec !important;
+    color: #455A64;
+}
